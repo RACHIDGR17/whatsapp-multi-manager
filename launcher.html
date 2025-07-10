@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Multi-Manager Launcher</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+    button {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #25D366;
+      color: #222;
+      cursor: pointer;
+      box-shadow: 0 2px 8px #25d36644;
+      transition: background-color 0.2s ease;
+    }
+    button:hover {
+      background-color: #1ebe57;
+    }
+    h1 {
+      color: #25D366;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>WhatsApp Multi-Manager</h1>
+  <button onclick="openAccount('persist:wauser1', 'Account 1')">Open Account 1</button>
+  <button onclick="openAccount('persist:wauser2', 'Account 2')">Open Account 2</button>
+  <button onclick="openAccount('persist:wauser3', 'Account 3')">Open Account 3</button>
+  <button onclick="openAccount('persist:wauser4', 'Account 4')">Open Account 4</button>
+
+  <script>
+    const { ipcRenderer } = require('electron');
+    function openAccount(partition, name) {
+      ipcRenderer.send('open-account-window', partition, name);
+    }
+  </script>
+</body>
+</html>

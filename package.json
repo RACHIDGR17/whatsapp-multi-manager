@@ -1,0 +1,45 @@
+{
+  "name": "whatsapp-multi-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist:mac": "electron-builder --mac",
+    "dist:win": "electron-builder --win",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^26.2.0",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "playwright": "^1.53.2"
+  },
+  "build": {
+    "appId": "com.yourcompany.whatsapptool",
+    "productName": "WhatsApp Multi-Manager",
+    "files": [
+      "main.js",
+      "package.json",
+      "renderer/build/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/app-icon.icns"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/app-icon.png"
+    }
+  }
+}

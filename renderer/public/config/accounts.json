@@ -1,0 +1,82 @@
+[
+  {
+    "name": "HANAN",
+    "partition": "persist:wauser1"
+  },
+  {
+    "name": "Team Whatssup 2",
+    "partition": "persist:wauser2"
+  },
+  {
+    "name": "Team Whatssup 3",
+    "partition": "persist:wauser3"
+  },
+  {
+    "name": "Team Whatssup 4",
+    "partition": "persist:wauser4"
+  },
+  {
+    "name": "Team Whatssup 5",
+    "partition": "persist:wauser5"
+  },
+  {
+    "name": "Team Whatssup 6",
+    "partition": "persist:wauser6"
+  },
+  {
+    "name": "Team Whatssup 7",
+    "partition": "persist:wauser7"
+  },
+  {
+    "name": "Team Whatssup 8",
+    "partition": "persist:wauser8"
+  },
+  {
+    "name": "Team Whatssup 9",
+    "partition": "persist:wauser9"
+  },
+  {
+    "name": "Team Whatssup 10",
+    "partition": "persist:wauser10"
+  },
+  {
+    "name": "Team Whatssup 11",
+    "partition": "persist:wauser11"
+  },
+  {
+    "name": "Team Whatssup 12",
+    "partition": "persist:wauser12"
+  },
+  {
+    "name": "Team Whatssup 13",
+    "partition": "persist:wauser13"
+  },
+  {
+    "name": "Team Whatssup 14",
+    "partition": "persist:wauser14"
+  },
+  {
+    "name": "Team Whatssup 15",
+    "partition": "persist:wauser15"
+  },
+  {
+    "name": "Team Whatssup 16",
+    "partition": "persist:wauser16"
+  },
+  {
+    "name": "Team Whatssup 17",
+    "partition": "persist:wauser17"
+  },
+  {
+    "name": "Team Whatssup 18",
+    "partition": "persist:wauser18"
+  },
+  {
+    "name": "Team Whatssup 19",
+    "partition": "persist:wauser19"
+  },
+  {
+    "name": "Team Whatssup 20",
+    "partition": "persist:wauser20"
+  }
+]
